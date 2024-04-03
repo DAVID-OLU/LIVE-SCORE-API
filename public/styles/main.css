@@ -1,0 +1,92 @@
+body {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 95vh;
+}
+
+
+#live-score-heading {
+    background-color: #14223E;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+
+.heading-text {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.live-score {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#countryName {
+   border: none;
+   background-color: white;
+   padding: 10px;
+}
+
+
+.countries {
+    border-bottom: 1px solid #3968A5;
+    padding: 18px;
+    
+}
+.countries:hover {
+    background-color: #78AAD8;
+}
+
+.country-link {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    color: #200E3A;
+}
+.country-link:hover {
+    color: #fff;
+}
+th {
+    border: 1px solid rgb(208, 208, 208);
+    padding: 15px;
+    background: #14223E;
+    color: #fff;
+}
+
+td {
+    border: 1px solid rgb(208, 208, 208);
+    padding: 10px;
+  }
+  tr:hover {
+    background-color: #78AAD8;
+  }
+  .win-percentage, .team-match, .team-name, .team-win {
+    color: #14223E;
+  }
+
+.champion {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+.back-button {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.btn{
+    padding: 10px 80px 10px 80px;
+}
